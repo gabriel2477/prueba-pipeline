@@ -7,9 +7,7 @@ trigger:
 - master
 
 pool:
-          name: default
-          demands:
-           - agent.name -equals default
+  name: default
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
