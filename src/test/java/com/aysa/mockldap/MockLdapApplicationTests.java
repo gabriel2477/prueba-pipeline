@@ -13,11 +13,4 @@ class MockLdapApplicationTests {
     @Test
     void contextLoads() {
     }
-
-    @Test
-    void validateTest(){
-        int x = 0;
-        assertTrue(x == 1);
-    }
-
 }
